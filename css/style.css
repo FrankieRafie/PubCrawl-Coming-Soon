@@ -100,15 +100,15 @@ body {
 }
 
 .fb {
-  background-image: url('../src/facebook.png');
+  background-image: url('../src/Facebook-icon.png');
 }
 
 .vb {
-  background-image: url('../src/viber.png');
+  background-image: url('../src/Viber-icon.png');
 }
 
 .wa {
-  background-image: url('../src/whatsapp.png');
+  background-image: url('../src/Whatsapp-icon.png');
 }
 
 .call {
