@@ -5,12 +5,12 @@ a:hover {
   color: #fff;
 }
 
-html,
-body {
-  background-color: #333;
+html {
+  height: 100%;
 }
 
 body {
+  height: 100%;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -19,11 +19,12 @@ body {
   justify-content: center;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: linear-gradient(45deg, #1A2347, #333, #1A2347);
 }
 
 .contacts {
-  padding-top: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .cover-container {
@@ -73,22 +74,45 @@ body {
 .cover {
   padding: 0 1.5rem;
 }
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
 
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
-.col-6 {
-  min-width: 172.5px;
+
+
+.social {
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 32px;
+  padding-left: 42px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.col-5 {
-  min-width: 123.5px;
+.fb-padding {
+  padding-left: 92px;
 }
 
-.row {
-  min-width: 269px;
+.number-padding {
+  padding-left: 71px;
+}
+
+.fb {
+  background-image: url('../src/facebook.png');
+}
+
+.vb {
+  background-image: url('../src/viber.png');
+}
+
+.wa {
+  background-image: url('../src/whatsapp.png');
+}
+
+.call {
+  background-image: url('../src/call.png');
+}
+
+.email {
+  background-image: url('../src/gmail.png');
 }
