@@ -20,6 +20,7 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   background: linear-gradient(45deg, #1A2347, #333, #1A2347);
+  padding-bottom: 16px;
 }
 
 .contacts {
@@ -77,6 +78,7 @@ body {
 
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  padding-top: 16px;
 }
 
 
@@ -115,4 +117,12 @@ body {
 
 .email {
   background-image: url('../src/gmail.png');
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.lead {
+  margin-bottom: 7px;
 }
